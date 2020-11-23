@@ -1,0 +1,215 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<style>
+  body {
+    background-image: url("https://www.itl.cat/pngfile/big/163-1631466_purple-paw-print-hd-wallpaper-chat-blanc-y.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    height: auto;
+    width: 100%;
+  }
+  
+   .content {
+    position: relative;
+    item-align: center; 
+    margin: auto;
+    border: 3px solid black;
+    background: white;
+    padding: 30px;
+    border-radius: 50px;
+    max-width: 55%;
+    height: auto;
+    background-color: lightgray;
+  }
+  
+   #title {
+    text-align: center;
+  }
+  
+  #description {
+    text-align: center;
+  }
+  
+  #SF1 {
+    text-align: center;
+    margin: 0%;
+  }
+  
+  #SF2 {
+    text-align: center;
+    margin: 0%;
+  }
+  
+  #SF3 {
+    text-align: center;
+    margin: 0%;
+  }
+  
+  #SF4 {
+    text-align: center;
+    margin: 0%;
+  }
+  
+  #SF5 {
+    text-align: center;
+    margin: 0%;
+  }
+  
+  #SF6 {
+    text-align: center;
+    margin: 0%;
+  }
+  
+  #SF7 {
+    text-align: center;
+    verticle-align: middle;
+    margin: 0%;
+  }
+  
+  #SF8 {
+    text-align: center;
+    margin: 0%;
+  }
+  
+  #SF9 {
+    text-align: center;
+    margin: 0%;
+  }
+  
+  #name {
+    width: 25%;
+    margin: 1em;
+  }
+  
+  #email {
+    width: 25%;
+    margin: 1em;
+  }
+  
+  #number {
+    margin: 1em;
+    width: 25%;
+  }
+  
+  #dropdown {
+    margin: 1em;
+    width: 24%;
+  }
+  
+  #dropdown-2 {
+    margin: 1em;
+  }
+  
+  #checkboxes2 {
+    display: block;
+    margin: 1em;
+  }
+  
+  #additional-comments {
+    margin: 1em;
+    width: 44%;
+  }
+  
+  #submit {
+    border: 2px solid green;
+    margin: 1em;
+  }
+</style>
+
+<body>
+<main>
+  <div class="content">
+    <head>
+      <h1 id="title"><u>Pet Survey Form</u></h1>
+    </head>
+    
+    <p id="description"><u>You will be conducting a survey to help us gather information about people's pets.</u></p>
+    
+    <div id="SF1"><form id="survey-form">
+      <label id="name-label" for="name">Name</label>
+      <input required type="text" placeholder="Name:" id="name">
+      
+      
+      <div id="SF2"><form>
+        <label id="email-label" for="email">Email</label>
+      <input required type="email" placeholder="Email address:" id="email">
+      
+        
+        <div id="SF3"><form>
+          <label id="number-label" for="number">Number Of Pets</label><input min="0" max="99" required type="number" placeholder="Number Of Pets" id="number">
+       
+          
+          <div id="SF4"><form>
+            <select name="Favourite type of pet" id="dropdown">
+              
+              <option value="N/A">Favourite Type Of Pet</option>
+              <option value="Bird">Bird</option>
+              <option value="Cat">Cat</option>
+              <option value="Dog">Dog</option>
+              <option value="Hamster">Hamster</option>
+              <option value="Other">Other</option>
+          
+            
+                  <div id="SF5"><input type="radio" id="male" name="gender" value="male"><form>
+                  <label for="male">Prefer Male Pets</label>
+                    
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Prefer Female Pets</label>         
+                    
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+            
+                    
+                 <div id="SF6"><form>
+                        <select name="Ownership Length" id="dropdown-2"<br>>
+                   
+              <option value="N/A">Ownership Length</option>
+              <option value="<1">Less Than 1 Year</option>
+              <option value="1-2">1 Year - 2 Years</option>
+              <option value="2-3">2 Years - 3 Years</option>
+              <option value="3+">3 Years+</option>
+                    
+                      
+                      <div id="SF7"><form><fieldset id="checkboxs2">
+                       
+                        <input type="checkbox" id="Want-pet" name="Want-pet" value="Want-pet">
+                        <label for="Want-pet">Would Like A Pet</label>
+                        
+                        <input type="checkbox" id="Dont-want-pet" name="Dont-want-pet" value="Dont-want-pet">
+                        <label for="Dont-want-pet">Would Not Like A Pet</label>
+                        
+                        <input type="checkbox" id="Will-get-pet" name="Will-get-pet" value="Will-get-pet">
+                        <label for="Will-get-pet">Will Get A Pet<br></label>
+                        
+                        <input type="checkbox" id="No-pet" name="No-pet" value="No-pet">
+                        <label for="No=pet">Will Not Get A Pet</label>
+                        
+                        <input type="checkbox" id="Other" name="Other" value="Other">
+                        <label for="Other">Other</label>
+                      </fieldset>
+                          
+                        
+                        <div id="SF8"><form>
+                          <textarea id="additional-comments" name="additional-comments" placeholder="Additional Comments"></textarea>
+                        
+                    
+                          <div style="position: relative; top: 10px;" id="SF9"><form>
+                            <input type="submit" id="submit" name="Submit">
+                        
+                            
+           </form></div>
+          </form></div>
+         </form></div>
+        </form></div>
+       </form></div>
+      </form></div>
+     </form></div>
+    </form></div>
+   </form></div>
+  </div>
+ </main>
+</body>
+
